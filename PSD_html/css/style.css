@@ -1,0 +1,436 @@
+@import url('/PSD_html/css/media.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald";
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* header start */
+.header{
+    background: url("/imges/bg1.png");
+    background-size: 100% 100%;
+}
+.nav{
+    background-color: #303030;
+}
+
+.nav .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-ul .nav-list{
+    display: inline-block;
+    padding: 0 10px;
+}
+.nav .col a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Oswald";
+}
+.header .header-contain{
+    padding: 70px 0;
+    color: white;
+}
+.header .header-contain h1{
+    font-size: clamp(20px,8.5vw,125px);
+    font-weight: 400;
+    font-family: "Oswald";
+}
+.header .header-contain .header-para{
+    width: 50%;
+    font-size: clamp(16px,2.4vw,30px);
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+.header .header-contain button{
+    width: 15%;
+    padding: 15px 0;
+    border-radius: 4px;
+    background-color: #e8631c;
+    color: white;
+}
+.header .header-contain h1,.header-para,button{
+    margin: 20px 0;
+}
+/* header end */
+
+
+/* sec1 */
+
+.sec1{
+    background-color: #e8631c;
+    padding: 30px 0;
+}
+.sec1 .sec1-header{
+    text-align: center;
+    color: white;
+    margin: 50px 0;
+}
+.sec1-header .sec1-h1{
+    /* font-size: 75px; */
+    font-size: clamp(20px,7vw,75px);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.sec1-header .sec1-para{
+ width: 50%;
+ margin: 0 auto;
+font-size: 30px;
+font-size:  clamp(16px,2.4vw,30px);
+font-weight: 400;
+
+}
+.sec1 .row{
+    display: flex;
+    gap: 20px;
+}
+.sec1 .row .col{
+    width: 30%;
+    background-color: #303030;
+}
+.sec1 .row .col .img{
+    width: 100%;
+    
+}
+.card-contain {
+    text-align: center;
+    color: white;
+    padding: 30px;
+  
+}
+.card-contain h2{
+    font-size: 37px;
+    font-size: clamp(20px,3vw,37px);
+text-transform: uppercase;
+font-weight: 400;
+}
+.card-contain p{
+font-size: 22px;
+font-size: clamp(16px,2vw,22px);
+font-weight: 400;
+}
+
+
+/* Sec 2 Start */
+
+.sec2{
+    background-color: #303030;
+    padding: 30px 0;
+}
+.sec2 .sec2-header{
+    text-align: center;
+    color: #ffffff;
+    margin: 50px 0;
+}
+.sec2-header .sec2-h1{
+    font-size: 75px;
+    /* font-size: clamp(20px,7vw,75px); */
+    font-weight: 700;
+}
+.sec2-header .sec2-para{
+ width: 50%;
+ margin: 0 auto;
+font-size: 30px;
+/* font-size:  clamp(16px,2.4vw,30px); */
+font-weight: 400;
+
+}
+.sec2 .row{
+    display: flex;
+    gap: 50px;
+}
+.sec2 .row .col{
+    width: 30%;
+    background-color: #e8631c;
+    padding: 20px;
+}
+.sec2 .row .col .img{
+    width: 100%;
+    margin: 60px 100px;
+}
+.card-contain {
+    text-align: center;
+    padding: 30px;
+  
+}
+.card-contain h2{
+    font-size: 37px;
+    font-size: clamp(20px,3vw,37px);
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.card-contain p{
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 400;
+}
+.card-contain button{
+    background-color: #303030;
+    color: #ffffff;
+    padding: 15px;
+    width: 80%;
+}
+
+/* Sec 2 END */
+
+
+/* Sec 3 start */
+.sec3{
+    background-color: #e8631c;
+}
+.sec3 .row{
+    display: flex;
+    align-items: center;
+    
+}
+.sec3 .row .col{
+    width: 50%;
+}
+.sec3 .col .img{
+    height: 1000px;
+}
+.sec3-contain{
+    padding: 50px;
+}
+.sec3 .col .sec3-h1{
+    font-size: 75px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 700;
+font-family: "Oswald";
+margin: 40px 0px;
+}
+.sec3 .col .sec3-p{
+font-size: 30px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Montserrat";
+margin: 40px 0;
+}
+.sec3 .col .sec3-btn{
+width: 322px;
+height: 65px;
+border-radius: 4px;
+background-color: #303030;
+font-size: 29px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 400;
+font-family: "Oswald";
+text-align: center;
+margin: 40px 20px;
+}
+/* Sec3 End */
+
+
+/* Sec4 Start */
+.sec4{
+    background-color: #e8631c;
+}
+.sec4 .row{
+    display: flex;
+    align-items: center;
+}
+.sec4 .row .col{
+    width: 50%;
+}
+.sec4-contain{
+    padding: 50px;
+}
+.sec4 .col .sec4-h1{
+    font-size: 75px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 700;
+font-family: "Oswald";
+margin: 40px 20px;
+}
+.sec4 .col .sec4-p{
+font-size: 30px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Montserrat";
+margin: 40px 20px;
+}
+.sec4 .col .sec4-btn{
+width: 322px;
+height: 65px;
+border-radius: 4px;
+background-color: #303030;
+font-size: 29px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 400;
+font-family: "Oswald";
+text-align: center;
+margin: 40px 20px;
+}
+.sec4 .col .img{
+    height: 1000px;
+}
+/* Sec4 End */
+
+/* Sec5 Start */
+.sec5{
+    background-color: #303030;
+    padding: 50PX;
+    color: #ffffff;
+}
+.sec5 .sec5-header{
+    text-align: center;
+    padding: 100px;
+}
+.sec5 .sec5-header h1{
+    font-size: 100px;
+    margin: 50px 0;
+}
+.sec5 .sec5-header p{
+    font-size: 25px;
+    width: 50%;
+    margin: 25px auto;
+}
+.sec5 .row{
+    display: flex;
+    gap: 50px;
+}
+.sec5 .row .col{
+    text-align: center;
+    width: 33.33%;
+    font-size: 40px;
+    padding: 50px;
+}
+/* Sec5 End */
+
+/* Sec 6 Start */
+.sec6 .sec6-content{
+    text-align: center;
+    width: 50%;
+}
+.sec6 .sec6-content, .para{
+    font-size: 35px;
+    margin: 25px auto;
+}
+.sec6 .sec6-content, .sec6-header{
+    font-size: 50px;
+    margin: 25px auto;
+}
+.sec6{
+    background-color: #e8631c;
+    color: #ffffff;
+    background:linear-gradient(rgba(211, 97, 4, 0.76),rgba(224, 110, 2, 0.76)),url("/imges/Sec\ 6\ Img.png");
+    background-size: 100% 100%;
+    padding: 250px;
+}
+/* Sec6 End */
+
+/* Sec7 Start */
+.sec7{
+    background-color: #e8631c;
+    padding: 100px;
+    color: #ffffff;
+}
+.sec7 .sec7-content{
+    text-align: center;
+}
+.sec7 .sec7-content h1{
+    font-size: 70px;
+    margin: 50px auto;
+}
+.sec7 .sec7-content p{
+    font-size: 40px;
+    margin: 30px auto;
+    width: 50%;
+}
+.sec7 .sec7-input{
+    margin-left: 700px;
+}
+/* Sec7 End */
+
+.sec7 .row{
+    display: flex;
+    margin: 0 auto;
+    width: 25%;
+    position: relative;
+}
+.sec7 .row .col-80{
+    width: 80%;
+    
+}
+.sec7 .row .col-80 input{
+    padding: 20px;
+    width: 100%;
+}
+.sec7 .row .col-20{
+ width: 20%;
+ position: absolute;
+ right: 10px;
+
+}
+.sec7 .row .col-20 .btn{
+    margin: 0;
+    width:100% ;
+    padding: 20px;
+}
+/* Sec7 End */
+
+/* footer */
+.foot {
+background-color: #303030;
+padding: 50px 0;
+}
+.foot .row{
+    display: flex;
+}
+.foot .row .col-40{
+    width: 40%;
+}
+.foot .row .col-60{
+    width: 60%;
+  
+}
+.foot .col-60 .row .col{
+    width: 33.33%;
+}
+.foot-contain{
+    padding: 10px;
+}
+.foot .foot-h3{
+    font-size: clamp(20px,2.8vw,33px);
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 400;
+font-family: "Oswald";
+}
+.foot .foot-ul{
+    list-style: none;
+    margin: 10px 0;
+}
+.foot .foot-ul .foot-li{
+    margin: 10px 0;
+}
+.foot a{
+    font-size:  clamp(16px,2.2vw,23px);
+color: #ffffff;
+font-weight: 400;
+font-family: "Montserrat";
+text-decoration: none;
+}
+.foot-p{
+    width: 80%;
+    margin: 10px 0;
+    font-size:  clamp(16px,2.4vw,25px);
+color: #ffffff;
+font-weight: 400;
+font-family: "Montserrat";
+}
+/* Footer End */
