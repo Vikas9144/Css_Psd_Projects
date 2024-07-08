@@ -1,0 +1,46 @@
+/* phone */
+@media only screen and (max-width:1160px) {
+    
+}
+@media only screen and (max-width:992px) {
+    .container{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:768px) {
+    .header-conatin .p-header{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .hedaer{
+        background-size: cover;
+    }
+    .sec1-contain .sec1-p{
+        /* width: 90%; */
+        width: auto;
+    }
+    .sec1 .row{
+        /* display: block;     */
+        flex-direction: column;
+    }
+    .sec1 .row .col{
+        width: 70%;
+        margin:  auto;
+    }
+}
+@media only screen and (max-width:576px) {
+    .header-conatin{
+        padding: 20px 10px;
+    }
+    .ul-nav{
+        display: none;
+    }
+    .sec2 .row{
+        display: block;
+       
+    }
+    .sec2 .row .col{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
